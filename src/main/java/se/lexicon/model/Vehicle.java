@@ -6,8 +6,8 @@ public class Vehicle {
     private String plateNumber; // Unique identifier for the vehicle
     private String type;              // Vehicle type (e.g., Car, Motorcycle, Truck)
 
-    public Vehicle(String registrationNumber, String type) {
-        this.plateNumber = Objects.requireNonNull(registrationNumber, "Plate number cannot be null.");
+    public Vehicle(String plateNumber, String type) {
+        this.plateNumber = Objects.requireNonNull(plateNumber, "Plate number cannot be null.");
         this.type = Objects.requireNonNull(type, "Vehicle type cannot be null.");
     }
 
