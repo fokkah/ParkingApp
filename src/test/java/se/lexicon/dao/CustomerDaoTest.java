@@ -27,6 +27,9 @@ public class CustomerDaoTest {
     @DisplayName("Should find a customer by ID when the customer exists")
     void findByIdReturnsCustomerWhenExists() {
         // todo: needs completion
+        if (testObject == null) {
+
+        }
     }
 
     @Test
